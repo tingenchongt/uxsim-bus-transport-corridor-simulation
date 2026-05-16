@@ -1,5 +1,97 @@
 session,data_origin,policy,informal_stops,short_dwell_scale,signal_scenario,n_signal_encounters,encounter_pattern,signal_offset_s,wm_to_rb_demand_shift_s,mixed_traffic,vol_rb_to_wm,vol_wm_to_rb,n_rows_calibration_subset,demand_window_s,demand_window_capped,avg_travel_time_s,avg_delay_s,delay_ratio,completed_trips,total_trips,total_distance_m,avg_speed_mps,encounter_1_green,encounter_2_green,encounter_3_green,extra_rb_to_wm_shifts_s
-Morning Session,robinsons_location,baseline_all_stops,True,,enc_G_G_G,3,G-G-G,45.0,40.0,False,138,57,138,3480.0,False,313.52,22.64,0.0722,220,220,778360.0,11.285,True,True,True,25.0
-Morning Session,robinsons_location,optimized_formal_only,False,,enc_G_G_G,3,G-G-G,45.0,40.0,False,138,57,138,3480.0,False,303.52,24.64,0.0812,220,220,734360.0,10.998,True,True,True,25.0
-Morning Session,waltermart_location,baseline_all_stops,True,,enc_G_G_G,3,G-G-G,45.0,40.0,False,138,57,57,3840.0,False,312.5,21.62,0.0692,220,220,778360.0,11.322,True,True,True,25.0
-Morning Session,waltermart_location,optimized_formal_only,False,0.55,enc_G_G_G,3,G-G-G,45.0,40.0,False,138,57,57,3840.0,False,261.02,18.88,0.0723,220,220,734360.0,12.788,True,True,True,25.0
+Morning Session,robinsons_location,baseline_all_stops,True,,enc_G_G_G,3,G-G-G,45.0,40.0,True,138,57,138,3480.0,False,246.66,25.87,0.1049,1555,1555,5434840.0,14.17,True,True,True,25.0
+Morning Session,robinsons_location,baseline_all_stops,True,,enc_G_G_R,3,G-G-R,45.0,40.0,True,138,57,138,3480.0,False,246.72,25.93,0.1051,1555,1555,5434840.0,14.166,True,True,False,0.0
+Morning Session,robinsons_location,baseline_all_stops,True,,enc_G_R_G,3,G-R-G,45.0,0.0,True,138,57,138,3480.0,False,247.09,26.3,0.1064,1555,1555,5434840.0,14.145,True,False,True,25.0
+Morning Session,robinsons_location,baseline_all_stops,True,,enc_G_R_R,3,G-R-R,45.0,0.0,True,138,57,138,3480.0,False,246.38,25.59,0.1039,1555,1555,5434840.0,14.186,True,False,False,0.0
+Morning Session,robinsons_location,baseline_all_stops,True,,enc_R_G_G,3,R-G-G,0.0,0.0,True,138,57,138,3480.0,False,244.6,23.81,0.0973,1555,1555,5434840.0,14.289,False,True,True,0.0
+Morning Session,robinsons_location,baseline_all_stops,True,,enc_R_G_R,3,R-G-R,0.0,0.0,True,138,57,138,3480.0,False,246.32,25.53,0.1036,1555,1555,5434840.0,14.189,False,True,False,25.0
+Morning Session,robinsons_location,baseline_all_stops,True,,enc_R_R_G,3,R-R-G,0.0,40.0,True,138,57,138,3480.0,False,244.84,24.05,0.0982,1555,1555,5434840.0,14.275,False,False,True,0.0
+Morning Session,robinsons_location,baseline_all_stops,True,,enc_R_R_R,3,R-R-R,0.0,40.0,True,138,57,138,3480.0,False,245.11,24.32,0.0992,1555,1555,5434840.0,14.259,False,False,False,25.0
+Morning Session,robinsons_location,optimized_formal_only,False,,enc_G_G_G,3,G-G-G,45.0,40.0,True,138,57,138,3480.0,False,232.94,24.15,0.1037,1555,1555,5123840.0,14.145,True,True,True,25.0
+Morning Session,robinsons_location,optimized_formal_only,False,,enc_G_G_R,3,G-G-R,45.0,40.0,True,138,57,138,3480.0,False,233.18,24.39,0.1046,1555,1555,5123840.0,14.131,True,True,False,0.0
+Morning Session,robinsons_location,optimized_formal_only,False,,enc_G_R_G,3,G-R-G,45.0,0.0,True,138,57,138,3480.0,False,233.15,24.36,0.1045,1555,1555,5123840.0,14.133,True,False,True,25.0
+Morning Session,robinsons_location,optimized_formal_only,False,,enc_G_R_R,3,G-R-R,45.0,0.0,True,138,57,138,3480.0,False,232.67,23.88,0.1026,1555,1555,5123840.0,14.162,True,False,False,0.0
+Morning Session,robinsons_location,optimized_formal_only,False,,enc_R_G_G,3,R-G-G,0.0,0.0,True,138,57,138,3480.0,False,230.77,21.98,0.0952,1555,1555,5123840.0,14.279,False,True,True,0.0
+Morning Session,robinsons_location,optimized_formal_only,False,,enc_R_G_R,3,R-G-R,0.0,0.0,True,138,57,138,3480.0,False,231.88,23.09,0.0996,1555,1555,5123840.0,14.21,False,True,False,25.0
+Morning Session,robinsons_location,optimized_formal_only,False,,enc_R_R_G,3,R-R-G,0.0,40.0,True,138,57,138,3480.0,False,230.95,22.16,0.0959,1555,1555,5123840.0,14.268,False,False,True,0.0
+Morning Session,robinsons_location,optimized_formal_only,False,,enc_R_R_R,3,R-R-R,0.0,40.0,True,138,57,138,3480.0,False,231.3,22.51,0.0973,1555,1555,5123840.0,14.246,False,False,False,25.0
+Morning Session,waltermart_location,baseline_all_stops,True,,enc_G_G_G,3,G-G-G,45.0,40.0,True,138,57,57,3840.0,False,244.82,24.07,0.0983,1560,1560,5452280.0,14.276,True,True,True,25.0
+Morning Session,waltermart_location,baseline_all_stops,True,,enc_G_G_R,3,G-G-R,45.0,40.0,True,138,57,57,3840.0,False,244.58,23.83,0.0974,1560,1560,5452280.0,14.29,True,True,False,0.0
+Morning Session,waltermart_location,baseline_all_stops,True,,enc_G_R_G,3,G-R-G,45.0,0.0,True,138,57,57,3840.0,False,244.5,23.75,0.0971,1560,1560,5452280.0,14.295,True,False,True,25.0
+Morning Session,waltermart_location,baseline_all_stops,True,,enc_G_R_R,3,G-R-R,45.0,0.0,True,138,57,57,3840.0,False,244.01,23.25,0.0953,1560,1560,5452280.0,14.324,True,False,False,0.0
+Morning Session,waltermart_location,baseline_all_stops,True,,enc_R_G_G,3,R-G-G,0.0,0.0,True,138,57,57,3840.0,False,245.46,24.71,0.1007,1560,1560,5452280.0,14.239,False,True,True,0.0
+Morning Session,waltermart_location,baseline_all_stops,True,,enc_R_G_R,3,R-G-R,0.0,0.0,True,138,57,57,3840.0,False,245.24,24.49,0.0999,1560,1560,5452280.0,14.252,False,True,False,25.0
+Morning Session,waltermart_location,baseline_all_stops,True,,enc_R_R_G,3,R-R-G,0.0,40.0,True,138,57,57,3840.0,False,245.06,24.31,0.0992,1560,1560,5452280.0,14.262,False,False,True,0.0
+Morning Session,waltermart_location,baseline_all_stops,True,,enc_R_R_R,3,R-R-R,0.0,40.0,True,138,57,57,3840.0,False,245.3,24.55,0.1001,1560,1560,5452280.0,14.248,False,False,False,25.0
+Morning Session,waltermart_location,optimized_formal_only,False,0.55,enc_G_G_G,3,G-G-G,45.0,40.0,True,138,57,57,3840.0,False,225.43,21.86,0.097,1560,1560,5140280.0,14.617,True,True,True,25.0
+Morning Session,waltermart_location,optimized_formal_only,False,0.55,enc_G_G_R,3,G-G-R,45.0,40.0,True,138,57,57,3840.0,False,225.14,21.57,0.0958,1560,1560,5140280.0,14.635,True,True,False,0.0
+Morning Session,waltermart_location,optimized_formal_only,False,0.55,enc_G_R_G,3,G-R-G,45.0,0.0,True,138,57,57,3840.0,False,225.1,21.52,0.0956,1560,1560,5140280.0,14.638,True,False,True,25.0
+Morning Session,waltermart_location,optimized_formal_only,False,0.55,enc_G_R_R,3,G-R-R,45.0,0.0,True,138,57,57,3840.0,False,224.39,20.82,0.0928,1560,1560,5140280.0,14.684,True,False,False,0.0
+Morning Session,waltermart_location,optimized_formal_only,False,0.55,enc_R_G_G,3,R-G-G,0.0,0.0,True,138,57,57,3840.0,False,225.37,21.8,0.0967,1560,1560,5140280.0,14.621,False,True,True,0.0
+Morning Session,waltermart_location,optimized_formal_only,False,0.55,enc_R_G_R,3,R-G-R,0.0,0.0,True,138,57,57,3840.0,False,224.82,21.25,0.0945,1560,1560,5140280.0,14.656,False,True,False,25.0
+Morning Session,waltermart_location,optimized_formal_only,False,0.55,enc_R_R_G,3,R-R-G,0.0,40.0,True,138,57,57,3840.0,False,225.16,21.59,0.0959,1560,1560,5140280.0,14.634,False,False,True,0.0
+Morning Session,waltermart_location,optimized_formal_only,False,0.55,enc_R_R_R,3,R-R-R,0.0,40.0,True,138,57,57,3840.0,False,224.84,21.27,0.0946,1560,1560,5140280.0,14.655,False,False,False,25.0
+Lunch,robinsons_location,baseline_all_stops,True,,enc_G_G_G,3,G-G-G,45.0,40.0,True,44,83,44,2940.0,False,247.36,25.67,0.1038,985,985,3442180.0,14.128,True,True,True,25.0
+Lunch,robinsons_location,baseline_all_stops,True,,enc_G_G_R,3,G-G-R,45.0,40.0,True,44,83,44,2940.0,False,245.12,23.62,0.0963,1000,1000,3494500.0,14.256,True,True,False,0.0
+Lunch,robinsons_location,baseline_all_stops,True,,enc_G_R_G,3,G-R-G,45.0,0.0,True,44,83,44,2940.0,False,237.97,16.27,0.0684,985,985,3442180.0,14.685,True,False,True,25.0
+Lunch,robinsons_location,baseline_all_stops,True,,enc_G_R_R,3,G-R-R,45.0,0.0,True,44,83,44,2940.0,False,238.32,16.82,0.0706,1000,1000,3494500.0,14.663,True,False,False,0.0
+Lunch,robinsons_location,baseline_all_stops,True,,enc_R_G_G,3,R-G-G,0.0,0.0,True,44,83,44,2940.0,False,256.07,34.57,0.135,1000,1000,3607150.0,14.086,False,True,True,0.0
+Lunch,robinsons_location,baseline_all_stops,True,,enc_R_G_R,3,R-G-R,0.0,0.0,True,44,83,44,2940.0,False,255.63,33.94,0.1328,985,985,3547320.0,14.088,False,True,False,25.0
+Lunch,robinsons_location,baseline_all_stops,True,,enc_R_R_G,3,R-R-G,0.0,40.0,True,44,83,44,2940.0,False,250.97,29.47,0.1174,1000,1000,3592130.0,14.313,False,False,True,0.0
+Lunch,robinsons_location,baseline_all_stops,True,,enc_R_R_R,3,R-R-R,0.0,40.0,True,44,83,44,2940.0,False,250.84,29.14,0.1162,985,985,3532300.0,14.296,False,False,False,25.0
+Lunch,robinsons_location,optimized_formal_only,False,,enc_G_G_G,3,G-G-G,45.0,40.0,True,44,83,44,2940.0,False,236.65,26.95,0.1139,985,985,3245180.0,13.922,True,True,True,25.0
+Lunch,robinsons_location,optimized_formal_only,False,,enc_G_G_R,3,G-G-R,45.0,40.0,True,44,83,44,2940.0,False,234.22,24.71,0.1055,1000,1000,3294500.0,14.066,True,True,False,0.0
+Lunch,robinsons_location,optimized_formal_only,False,,enc_G_R_G,3,G-R-G,45.0,0.0,True,44,83,44,2940.0,False,227.11,17.41,0.0767,985,985,3245180.0,14.507,True,False,True,25.0
+Lunch,robinsons_location,optimized_formal_only,False,,enc_G_R_R,3,G-R-R,45.0,0.0,True,44,83,44,2940.0,False,227.45,17.94,0.0789,1000,1000,3294500.0,14.485,True,False,False,0.0
+Lunch,robinsons_location,optimized_formal_only,False,,enc_R_G_G,3,R-G-G,0.0,0.0,True,44,83,44,2940.0,False,233.88,24.36,0.1042,1000,1000,3294500.0,14.087,False,True,True,0.0
+Lunch,robinsons_location,optimized_formal_only,False,,enc_R_G_R,3,R-G-R,0.0,0.0,True,44,83,44,2940.0,False,232.84,23.15,0.0994,985,985,3245180.0,14.149,False,True,False,25.0
+Lunch,robinsons_location,optimized_formal_only,False,,enc_R_R_G,3,R-R-G,0.0,40.0,True,44,83,44,2940.0,False,227.45,17.94,0.0789,1000,1000,3294500.0,14.485,False,False,True,0.0
+Lunch,robinsons_location,optimized_formal_only,False,,enc_R_R_R,3,R-R-R,0.0,40.0,True,44,83,44,2940.0,False,226.22,16.52,0.073,985,985,3245180.0,14.564,False,False,False,25.0
+Lunch,waltermart_location,baseline_all_stops,True,,enc_G_G_G,3,G-G-G,45.0,40.0,True,44,83,83,18000.0,True,237.25,15.62,0.0658,990,990,3459620.0,14.73,True,True,True,25.0
+Lunch,waltermart_location,baseline_all_stops,True,,enc_G_G_R,3,G-G-R,45.0,40.0,True,44,83,83,18000.0,True,241.14,19.5,0.0809,990,990,3459620.0,14.492,True,True,False,0.0
+Lunch,waltermart_location,baseline_all_stops,True,,enc_G_R_G,3,G-R-G,45.0,0.0,True,44,83,83,18000.0,True,242.85,21.22,0.0874,990,990,3459620.0,14.39,True,False,True,25.0
+Lunch,waltermart_location,baseline_all_stops,True,,enc_G_R_R,3,G-R-R,45.0,0.0,True,44,83,83,18000.0,True,237.42,15.79,0.0665,990,990,3459620.0,14.719,True,False,False,0.0
+Lunch,waltermart_location,baseline_all_stops,True,,enc_R_G_G,3,R-G-G,0.0,0.0,True,44,83,83,18000.0,True,240.23,18.6,0.0774,990,990,3459620.0,14.547,False,True,True,0.0
+Lunch,waltermart_location,baseline_all_stops,True,,enc_R_G_R,3,R-G-R,0.0,0.0,True,44,83,83,18000.0,True,239.9,18.27,0.0761,990,990,3459620.0,14.567,False,True,False,25.0
+Lunch,waltermart_location,baseline_all_stops,True,,enc_R_R_G,3,R-R-G,0.0,40.0,True,44,83,83,18000.0,True,238.16,16.52,0.0694,990,990,3459620.0,14.673,False,False,True,0.0
+Lunch,waltermart_location,baseline_all_stops,True,,enc_R_R_R,3,R-R-R,0.0,40.0,True,44,83,83,18000.0,True,240.91,19.28,0.08,990,990,3459620.0,14.506,False,False,False,25.0
+Lunch,waltermart_location,optimized_formal_only,False,0.55,enc_G_G_G,3,G-G-G,45.0,40.0,True,44,83,83,18000.0,True,220.51,16.45,0.0746,990,990,3261620.0,14.941,True,True,True,25.0
+Lunch,waltermart_location,optimized_formal_only,False,0.55,enc_G_G_R,3,G-G-R,45.0,40.0,True,44,83,83,18000.0,True,225.28,21.22,0.0942,990,990,3261620.0,14.624,True,True,False,0.0
+Lunch,waltermart_location,optimized_formal_only,False,0.55,enc_G_R_G,3,G-R-G,45.0,0.0,True,44,83,83,18000.0,True,226.67,22.61,0.0997,990,990,3261620.0,14.535,True,False,True,25.0
+Lunch,waltermart_location,optimized_formal_only,False,0.55,enc_G_R_R,3,G-R-R,45.0,0.0,True,44,83,83,18000.0,True,220.63,16.57,0.0751,990,990,3261620.0,14.932,True,False,False,0.0
+Lunch,waltermart_location,optimized_formal_only,False,0.55,enc_R_G_G,3,R-G-G,0.0,0.0,True,44,83,83,18000.0,True,224.44,20.39,0.0908,990,990,3261620.0,14.679,False,True,True,0.0
+Lunch,waltermart_location,optimized_formal_only,False,0.55,enc_R_G_R,3,R-G-R,0.0,0.0,True,44,83,83,18000.0,True,223.28,19.23,0.0861,990,990,3261620.0,14.755,False,True,False,25.0
+Lunch,waltermart_location,optimized_formal_only,False,0.55,enc_R_R_G,3,R-R-G,0.0,40.0,True,44,83,83,18000.0,True,221.69,17.63,0.0795,990,990,3261620.0,14.861,False,False,True,0.0
+Lunch,waltermart_location,optimized_formal_only,False,0.55,enc_R_R_R,3,R-R-R,0.0,40.0,True,44,83,83,18000.0,True,225.03,20.97,0.0932,990,990,3261620.0,14.641,False,False,False,25.0
+Afternoon Session,robinsons_location,baseline_all_stops,True,,enc_G_G_G,3,G-G-G,45.0,40.0,True,106,101,106,3420.0,False,245.0,22.83,0.0932,1665,1665,5819020.0,14.265,True,True,True,25.0
+Afternoon Session,robinsons_location,baseline_all_stops,True,,enc_G_G_R,3,G-G-R,45.0,40.0,True,106,101,106,3420.0,False,244.89,22.73,0.0928,1665,1665,5819020.0,14.271,True,True,False,0.0
+Afternoon Session,robinsons_location,baseline_all_stops,True,,enc_G_R_G,3,G-R-G,45.0,0.0,True,106,101,106,3420.0,False,244.86,22.7,0.0927,1665,1665,5819020.0,14.273,True,False,True,25.0
+Afternoon Session,robinsons_location,baseline_all_stops,True,,enc_G_R_R,3,G-R-R,45.0,0.0,True,106,101,106,3420.0,False,244.58,22.41,0.0916,1665,1665,5819020.0,14.289,True,False,False,0.0
+Afternoon Session,robinsons_location,baseline_all_stops,True,,enc_R_G_G,3,R-G-G,0.0,0.0,True,106,101,106,3420.0,False,244.43,22.26,0.0911,1665,1665,5819020.0,14.298,False,True,True,0.0
+Afternoon Session,robinsons_location,baseline_all_stops,True,,enc_R_G_R,3,R-G-R,0.0,0.0,True,106,101,106,3420.0,False,244.38,22.22,0.0909,1665,1665,5819020.0,14.301,False,True,False,25.0
+Afternoon Session,robinsons_location,baseline_all_stops,True,,enc_R_R_G,3,R-R-G,0.0,40.0,True,106,101,106,3420.0,False,243.65,21.48,0.0882,1665,1665,5819020.0,14.344,False,False,True,0.0
+Afternoon Session,robinsons_location,baseline_all_stops,True,,enc_R_R_R,3,R-R-R,0.0,40.0,True,106,101,106,3420.0,False,243.9,21.74,0.0891,1665,1665,5819020.0,14.329,False,False,False,25.0
+Afternoon Session,robinsons_location,optimized_formal_only,False,,enc_G_G_G,3,G-G-G,45.0,40.0,True,106,101,106,3420.0,False,232.49,22.32,0.096,1665,1665,5486020.0,14.172,True,True,True,25.0
+Afternoon Session,robinsons_location,optimized_formal_only,False,,enc_G_G_R,3,G-G-R,45.0,40.0,True,106,101,106,3420.0,False,232.24,22.07,0.095,1665,1665,5486020.0,14.188,True,True,False,0.0
+Afternoon Session,robinsons_location,optimized_formal_only,False,,enc_G_R_G,3,G-R-G,45.0,0.0,True,106,101,106,3420.0,False,232.28,22.11,0.0952,1665,1665,5486020.0,14.185,True,False,True,25.0
+Afternoon Session,robinsons_location,optimized_formal_only,False,,enc_G_R_R,3,G-R-R,45.0,0.0,True,106,101,106,3420.0,False,231.77,21.6,0.0932,1665,1665,5486020.0,14.216,True,False,False,0.0
+Afternoon Session,robinsons_location,optimized_formal_only,False,,enc_R_G_G,3,R-G-G,0.0,0.0,True,106,101,106,3420.0,False,232.25,22.08,0.0951,1665,1665,5486020.0,14.187,False,True,True,0.0
+Afternoon Session,robinsons_location,optimized_formal_only,False,,enc_R_G_R,3,R-G-R,0.0,0.0,True,106,101,106,3420.0,False,231.89,21.72,0.0937,1665,1665,5486020.0,14.209,False,True,False,25.0
+Afternoon Session,robinsons_location,optimized_formal_only,False,,enc_R_R_G,3,R-R-G,0.0,40.0,True,106,101,106,3420.0,False,231.52,21.35,0.0922,1665,1665,5486020.0,14.232,False,False,True,0.0
+Afternoon Session,robinsons_location,optimized_formal_only,False,,enc_R_R_R,3,R-R-R,0.0,40.0,True,106,101,106,3420.0,False,231.71,21.54,0.093,1665,1665,5486020.0,14.22,False,False,False,25.0
+Afternoon Session,waltermart_location,baseline_all_stops,True,,enc_G_G_G,3,G-G-G,45.0,40.0,True,106,101,101,18000.0,True,247.67,25.43,0.1027,1655,1655,5874260.0,14.331,True,True,True,25.0
+Afternoon Session,waltermart_location,baseline_all_stops,True,,enc_G_G_R,3,G-G-R,45.0,40.0,True,106,101,101,18000.0,True,243.66,21.41,0.0879,1655,1655,5821690.0,14.437,True,True,False,0.0
+Afternoon Session,waltermart_location,baseline_all_stops,True,,enc_G_R_G,3,G-R-G,45.0,0.0,True,106,101,101,18000.0,True,243.19,20.94,0.0861,1655,1655,5799160.0,14.409,True,False,True,25.0
+Afternoon Session,waltermart_location,baseline_all_stops,True,,enc_G_R_R,3,G-R-R,45.0,0.0,True,106,101,101,18000.0,True,249.26,27.02,0.1084,1655,1655,5904300.0,14.313,True,False,False,0.0
+Afternoon Session,waltermart_location,baseline_all_stops,True,,enc_R_G_G,3,R-G-G,0.0,0.0,True,106,101,101,18000.0,True,243.32,21.08,0.0866,1655,1655,5829200.0,14.475,False,True,True,0.0
+Afternoon Session,waltermart_location,baseline_all_stops,True,,enc_R_G_R,3,R-G-R,0.0,0.0,True,106,101,101,18000.0,True,243.47,21.23,0.0872,1655,1655,5814180.0,14.429,False,True,False,25.0
+Afternoon Session,waltermart_location,baseline_all_stops,True,,enc_R_R_G,3,R-R-G,0.0,40.0,True,106,101,101,18000.0,True,243.04,20.79,0.0856,1655,1655,5814180.0,14.455,False,False,True,0.0
+Afternoon Session,waltermart_location,baseline_all_stops,True,,enc_R_R_R,3,R-R-R,0.0,40.0,True,106,101,101,18000.0,True,244.08,21.83,0.0895,1655,1655,5829200.0,14.43,False,False,False,25.0
+Afternoon Session,waltermart_location,optimized_formal_only,False,0.55,enc_G_G_G,3,G-G-G,45.0,40.0,True,106,101,101,18000.0,True,224.34,19.94,0.0889,1655,1655,5453140.0,14.688,True,True,True,25.0
+Afternoon Session,waltermart_location,optimized_formal_only,False,0.55,enc_G_G_R,3,G-G-R,45.0,40.0,True,106,101,101,18000.0,True,224.15,19.76,0.0882,1655,1655,5453140.0,14.699,True,True,False,0.0
+Afternoon Session,waltermart_location,optimized_formal_only,False,0.55,enc_G_R_G,3,G-R-G,45.0,0.0,True,106,101,101,18000.0,True,223.14,18.75,0.084,1655,1655,5453140.0,14.766,True,False,True,25.0
+Afternoon Session,waltermart_location,optimized_formal_only,False,0.55,enc_G_R_R,3,G-R-R,45.0,0.0,True,106,101,101,18000.0,True,223.76,19.37,0.0866,1655,1655,5453140.0,14.725,True,False,False,0.0
+Afternoon Session,waltermart_location,optimized_formal_only,False,0.55,enc_R_G_G,3,R-G-G,0.0,0.0,True,106,101,101,18000.0,True,223.2,18.81,0.0843,1655,1655,5453140.0,14.762,False,True,True,0.0
+Afternoon Session,waltermart_location,optimized_formal_only,False,0.55,enc_R_G_R,3,R-G-R,0.0,0.0,True,106,101,101,18000.0,True,223.69,19.29,0.0862,1655,1655,5453140.0,14.73,False,True,False,25.0
+Afternoon Session,waltermart_location,optimized_formal_only,False,0.55,enc_R_R_G,3,R-R-G,0.0,40.0,True,106,101,101,18000.0,True,223.1,18.7,0.0838,1655,1655,5453140.0,14.769,False,False,True,0.0
+Afternoon Session,waltermart_location,optimized_formal_only,False,0.55,enc_R_R_R,3,R-R-R,0.0,40.0,True,106,101,101,18000.0,True,223.25,18.85,0.0845,1655,1655,5453140.0,14.759,False,False,False,25.0
