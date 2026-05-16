@@ -1,5 +1,5 @@
 """
-Build thesis-style charts from results_summary.csv and results_baseline_vs_optimized.csv.
+Build charts from results_summary.csv and results_baseline_vs_optimized.csv.
 
 Run after: python simulation.py
 Or standalone: python visualize_results.py

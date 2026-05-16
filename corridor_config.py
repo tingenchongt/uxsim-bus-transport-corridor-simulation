@@ -104,7 +104,7 @@ SIGNAL_ENCOUNTER_SCENARIOS: tuple[SignalEncounterScenario, ...] = (
     ),
 )
 
-# Mixed traffic: relative demand multipliers vs bus sheet row-count volume (tune in thesis).
+# Mixed traffic: relative demand multipliers vs bus sheet row-count volume (tune as needed).
 @dataclass(frozen=True)
 class VehicleClass:
     key: str

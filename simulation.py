@@ -150,7 +150,7 @@ def _write_results_csv(rows: list[dict[str, object]]) -> None:
         w = csv.DictWriter(f, fieldnames=keys)
         w.writeheader()
         w.writerows(rows)
-    print(f"\n  Thesis table (all runs): {RESULTS_SUMMARY_CSV}")
+    print(f"\n  Results table (all runs): {RESULTS_SUMMARY_CSV}")
 
 
 def _write_comparison_csv(rows: list[dict[str, object]]) -> None:
