@@ -17,7 +17,7 @@ out*/
 # Simulation outputs (regenerate with scripts)
 results*.csv
 results*.xlsx
-results_by_mode/
+# results_by_mode/ tracked on GitHub after batch runs complete
 field_stationary_observations.csv
 *.checkpoint.csv
 figures_output/
