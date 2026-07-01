@@ -2,7 +2,7 @@
 
 UXsim microsimulation of bus operations on a formal/informal stop corridor (Robinsons–Waltermart, San Agustin). Per-bus scenarios, signal patterns, mixed traffic, and June 2026 field-calibrated Python pipeline.
 
-**Developed by:** Ting Enchong
+**Developed by:** Ting En Chong
 
 ## Requirements
 
