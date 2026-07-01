@@ -1,17 +1,21 @@
 """
-Aguinaldo Hwy UXsim: Robinsons <-> Waltermart with signal and post-intersection formal stop.
+Legacy Aguinaldo Hwy UXsim prototype (12 aggregate runs).
 
-Per session sheet (Morning / Lunch / Afternoon): 4 runs x 3 sheets = 12 simulations.
+This script runs session-level baseline vs optimized comparisons and writes
+results_summary.csv / results_baseline_vs_optimized.csv. It does NOT produce
+the per-bus thesis tables.
 
-  Sim 1 (rows with Location at Robinsons): baseline informal curb RB->WM before signal + post-int + WM.
-  Sim 2 (same Robinsons subset): optimized, no informal curb.
-  Sim 3 (rows with Location at Waltermart): same topology as Sim 1; demand window and survey stats from WM subset.
-  Sim 4 (same Waltermart subset): no informal + shorter modeled dwells (scale factor).
+For current work, use instead:
+  simulation_per_vehicle.py   — one row per Data_Collection bus (513 obs) x scenario x signal
+  simulation_session_hour.py  — 1-hour mixed-traffic session runs + per-bus rows
 
-The Location column marks where each observation started (Robinsons Dasmarinas vs Waltermart Dasmarinas).
-bus_calibration aggregates Time, Bus, Route, boarding, alighting, dwell, crowding, traffic for each subset.
+Shared calibration: bus_calibration.py, corridor_config.py, corridor_network.py
+Field data: Data_Collection.xlsx / Bus_Data_Collection_Dec-12-18.xlsx
 
-Field data: bus_calibration.py / Data_Collection.xlsx.
+Original 12-run layout (still what this file executes):
+  Per session (Morning / Lunch / Afternoon): 4 runs x 3 sheets = 12 simulations.
+  Sim 1–2: Robinsons-location subset (baseline informal vs optimized).
+  Sim 3–4: Waltermart-location subset (same topology; WM demand window).
 """
 
 from __future__ import annotations

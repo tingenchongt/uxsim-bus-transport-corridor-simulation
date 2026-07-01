@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<configuration>
+  <input>
+    <net-file value="corridor.net.xml"/>
+    <route-files value="corridor.rou.xml"/>
+    <additional-files value="corridor.add.xml"/>
+  </input>
+  <gui_only>
+    <gui-settings-file value="corridor.view.xml"/>
+    <start value="true"/>
+  </gui_only>
+  <time>
+    <begin value="0"/>
+    <end value="3600"/>
+    <step-length value="1"/>
+  </time>
+  <report>
+    <tripinfo-output value="output/tripinfo.xml"/>
+    <summary-output value="output/summary.xml"/>
+  </report>
+</configuration>

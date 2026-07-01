@@ -8,3 +8,15 @@ venv/
 cache/
 out*/
 *.log
+
+# Field data & large binaries
+*.xlsx
+*.pptx
+
+# Simulation outputs (regenerate with scripts)
+results*.csv
+results*.xlsx
+results_by_mode/
+field_stationary_observations.csv
+*.checkpoint.csv
+figures_output/

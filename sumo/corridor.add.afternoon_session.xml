@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<additional>
+  <vType id="bus" vClass="bus" length="12" maxSpeed="60.01" color="yellow"/>
+  <vType id="car" vClass="passenger" length="4.5" maxSpeed="60.01" color="1,0,0"/>
+  <vType id="jeepney" vClass="bus" length="7" maxSpeed="60.01" color="1,0.5,0"/>
+  <vType id="truck" vClass="truck" length="10" maxSpeed="60.01" color="0.5,0.5,0.5"/>
+  <vType id="motorcycle" vClass="motorcycle" length="2.2" maxSpeed="60.01" color="0,1,0"/>
+  <vType id="van" vClass="delivery" length="5.5" maxSpeed="60.01" color="0,1,1"/>
+  <busStop id="bs_informal_robinsons" lane="eb_informal_robinsons__seven_eleven_0" startPos="8" endPos="22" name="informal robinsons"/>
+  <busStop id="bs_seven_eleven" lane="eb_seven_eleven__pala_pala_0" startPos="8" endPos="22" name="seven eleven"/>
+  <busStop id="bs_villa_verde" lane="eb_villa_verde__vista_mall_0" startPos="8" endPos="22" name="villa verde"/>
+  <busStop id="bs_vista_mall" lane="eb_vista_mall__aguinaldo_mid_0" startPos="8" endPos="22" name="vista mall"/>
+  <busStop id="bs_rcbc" lane="eb_rcbc__waltermart_int_0" startPos="8" endPos="22" name="rcbc"/>
+  <busStop id="bs_robinsons" lane="eb_robinsons__informal_robinsons_0" startPos="2" endPos="18" name="Robinsons"/>
+  <busStop id="bs_waltermart" lane="eb_waltermart_int__waltermart_0" startPos="37.0" endPos="57.0" name="Waltermart"/>
+  <tlLogic id="n_eb_pala_pala" type="static" programID="0" offset="0">
+    <phase duration="90" state="GG"/>
+    <phase duration="90" state="rr"/>
+  </tlLogic>
+  <tlLogic id="n_wb_pala_pala" type="static" programID="0" offset="90">
+    <phase duration="90" state="GG"/>
+    <phase duration="90" state="rr"/>
+  </tlLogic>
+  <tlLogic id="n_eb_aguinaldo_mid" type="static" programID="0" offset="0">
+    <phase duration="90" state="GG"/>
+    <phase duration="90" state="rr"/>
+  </tlLogic>
+  <tlLogic id="n_wb_aguinaldo_mid" type="static" programID="0" offset="90">
+    <phase duration="90" state="GG"/>
+    <phase duration="90" state="rr"/>
+  </tlLogic>
+  <tlLogic id="n_eb_waltermart_int" type="static" programID="0" offset="0">
+    <phase duration="90" state="GG"/>
+    <phase duration="90" state="rr"/>
+  </tlLogic>
+  <tlLogic id="n_wb_waltermart_int" type="static" programID="0" offset="90">
+    <phase duration="90" state="GG"/>
+    <phase duration="90" state="rr"/>
+  </tlLogic>
+  <poi id="lbl_robinsons" x="-6.48" y="15.36" color="0,0,1" type="stop" layer="1"/>
+  <poi id="lbl_informal_robinsons" x="-29.55" y="76.46" color="0,0,1" type="stop" layer="1"/>
+  <poi id="lbl_seven_eleven" x="63.26" y="224.77" color="0,0,1" type="stop" layer="1"/>
+  <poi id="lbl_villa_verde" x="-963.38" y="1830.91" color="0,0,1" type="stop" layer="1"/>
+  <poi id="lbl_vista_mall" x="-1115.23" y="2077.05" color="0,0,1" type="stop" layer="1"/>
+  <poi id="lbl_rcbc" x="-1348.21" y="2936.50" color="0,0,1" type="stop" layer="1"/>
+  <poi id="lbl_waltermart" x="-1273.98" y="2750.35" color="0,0,1" type="stop" layer="1"/>
+</additional>

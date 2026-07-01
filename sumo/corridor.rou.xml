@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<routes>
+  <route id="route_rb_wm" edges="eb_robinsons__korean_grocery eb_korean_grocery__pala_pala eb_pala_pala__seven_eleven eb_seven_eleven__rkp_trading eb_rkp_trading__villa_verde eb_villa_verde__vista_mall eb_vista_mall__waltermart_int eb_waltermart_int__rcbc eb_rcbc__waltermart"/>
+  <route id="route_wm_rb" edges="wb_waltermart__rcbc wb_rcbc__waltermart_int wb_waltermart_int__vista_mall wb_vista_mall__villa_verde wb_villa_verde__rkp_trading wb_rkp_trading__seven_eleven wb_seven_eleven__pala_pala wb_pala_pala__korean_grocery wb_korean_grocery__robinsons"/>
+  <flow id="bus_rb_wm" type="bus" route="route_rb_wm" begin="0" end="3600" period="45" line="RB_WM"/>
+  <flow id="bus_wm_rb" type="bus" route="route_wm_rb" begin="0" end="3600" period="67" line="WM_RB"/>
+  <flow id="car_rb_wm" type="car" route="route_rb_wm" begin="0" end="3600" vehsPerHour="1096"/>
+  <flow id="car_wm_rb" type="car" route="route_wm_rb" begin="0" end="3600" vehsPerHour="767"/>
+  <flow id="jeep_rb_wm" type="jeepney" route="route_rb_wm" begin="0" end="3600" vehsPerHour="488"/>
+</routes>

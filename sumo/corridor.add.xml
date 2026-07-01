@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<additional>
+  <vType id="bus" vClass="bus" length="12" maxSpeed="60.00" color="yellow"/>
+  <vType id="car" vClass="passenger" length="4.5" maxSpeed="60.00" color="1,0,0"/>
+  <vType id="jeepney" vClass="bus" length="7" maxSpeed="60.00" color="1,0.5,0"/>
+  <vType id="truck" vClass="truck" length="10" maxSpeed="60.00" color="0.5,0.5,0.5"/>
+  <vType id="motorcycle" vClass="motorcycle" length="2.2" maxSpeed="60.00" color="0,1,0"/>
+  <vType id="van" vClass="delivery" length="5.5" maxSpeed="60.00" color="0,1,1"/>
+  <busStop id="bs_korean_grocery" lane="eb_korean_grocery__pala_pala_0" startPos="8" endPos="22" name="korean grocery"/>
+  <busStop id="bs_seven_eleven" lane="eb_seven_eleven__rkp_trading_0" startPos="8" endPos="22" name="seven eleven"/>
+  <busStop id="bs_rkp_trading" lane="eb_rkp_trading__villa_verde_0" startPos="8" endPos="22" name="rkp trading"/>
+  <busStop id="bs_villa_verde" lane="eb_villa_verde__vista_mall_0" startPos="8" endPos="22" name="villa verde"/>
+  <busStop id="bs_vista_mall" lane="eb_vista_mall__waltermart_int_0" startPos="8" endPos="22" name="vista mall"/>
+  <busStop id="bs_rcbc" lane="eb_rcbc__waltermart_0" startPos="8" endPos="22" name="rcbc"/>
+  <busStop id="bs_robinsons" lane="eb_robinsons__korean_grocery_0" startPos="2" endPos="18" name="Robinsons"/>
+  <busStop id="bs_waltermart" lane="eb_rcbc__waltermart_0" startPos="232.0" endPos="252.0" name="Waltermart"/>
+  <tlLogic id="n_eb_pala_pala" type="static" programID="0" offset="0">
+    <phase duration="75" state="GG"/>
+    <phase duration="183" state="rr"/>
+  </tlLogic>
+  <tlLogic id="n_wb_pala_pala" type="static" programID="0" offset="75">
+    <phase duration="175" state="GG"/>
+    <phase duration="83" state="rr"/>
+  </tlLogic>
+  <tlLogic id="n_eb_waltermart_int" type="static" programID="0" offset="0">
+    <phase duration="50" state="GG"/>
+    <phase duration="37" state="rr"/>
+  </tlLogic>
+  <tlLogic id="n_wb_waltermart_int" type="static" programID="0" offset="50">
+    <phase duration="30" state="GG"/>
+    <phase duration="57" state="rr"/>
+  </tlLogic>
+  <poi id="lbl_robinsons" x="-169.66" y="34.24" color="0,0,1" type="stop" layer="1"/>
+  <poi id="lbl_korean_grocery" x="-191.46" y="117.39" color="0,0,1" type="stop" layer="1"/>
+  <poi id="lbl_seven_eleven" x="-73.90" y="306.54" color="0,0,1" type="stop" layer="1"/>
+  <poi id="lbl_rkp_trading" x="-64.84" y="389.26" color="0,0,1" type="stop" layer="1"/>
+  <poi id="lbl_villa_verde" x="-1254.36" y="2049.67" color="0,0,1" type="stop" layer="1"/>
+  <poi id="lbl_vista_mall" x="-1287.97" y="2130.00" color="0,0,1" type="stop" layer="1"/>
+  <poi id="lbl_rcbc" x="-1501.42" y="2944.87" color="0,0,1" type="stop" layer="1"/>
+  <poi id="lbl_waltermart" x="-1436.85" y="2768.34" color="0,0,1" type="stop" layer="1"/>
+</additional>

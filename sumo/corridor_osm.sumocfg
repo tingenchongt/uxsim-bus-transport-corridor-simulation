@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<configuration>
+  <input>
+    <net-file value="corridor_osm.net.xml"/>
+    <route-files value="corridor_osm.rou.xml"/>
+  </input>
+  <time>
+    <begin value="0"/>
+    <end value="3600"/>
+  </time>
+  <gui_only>
+    <start value="true"/>
+  </gui_only>
+</configuration>

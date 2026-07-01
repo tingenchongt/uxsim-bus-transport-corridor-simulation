@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-06-09T22:29:59.246002+08:00 by Eclipse SUMO netconvert 1.26.0
+<netconvertConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <node-files value="C:\Users\Enchong\Downloads\simulation\sumo\corridor.nod.xml"/>
+        <edge-files value="C:\Users\Enchong\Downloads\simulation\sumo\corridor.edg.xml"/>
+    </input>
+
+    <output>
+        <output-file value="C:\Users\Enchong\Downloads\simulation\sumo\corridor.net.xml"/>
+    </output>
+
+    <processing>
+        <geometry.min-radius value="12"/>
+    </processing>
+
+    <building_defaults>
+        <default.lanewidth value="3.25"/>
+    </building_defaults>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+        <junctions.join value="false"/>
+        <junctions.corner-detail value="5"/>
+    </junctions>
+
+</netconvertConfiguration>
+-->
+
+<net version="1.20" junctionCornerDetail="5" limitTurnSpeed="5.50" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/net_file.xsd">
+
+    <location netOffset="1514.44,-16.24" convBoundary="0.00,0.00,1461.20,2910.63" origBoundary="-1514.44,16.24,-53.24,2926.87" projParameter="!"/>
+
+    <edge id=":n_eb_korean_grocery_0" function="internal">
+        <lane id=":n_eb_korean_grocery_0_0" index="0" speed="4.14" length="1.44" width="3.25" shape="1332.01,80.74 1331.95,81.11 1331.98,81.46 1332.08,81.79 1332.27,82.11"/>
+        <lane id=":n_eb_korean_grocery_0_1" index="1" speed="6.52" length="4.32" width="3.25" shape="1328.87,79.92 1328.70,81.01 1328.77,82.06 1329.08,83.06 1329.64,84.02"/>
+        <lane id=":n_eb_korean_grocery_0_2" index="2" speed="8.24" length="7.19" width="3.25" shape="1325.72,79.09 1325.44,80.92 1325.56,82.66 1326.08,84.34 1327.01,85.93"/>
+    </edge>
+    <edge id=":n_eb_pala_pala_0" function="internal">
+        <lane id=":n_eb_pala_pala_0_0" index="0" speed="20.77" length="9.21" width="3.25" shape="1432.03,224.90 1433.72,227.27 1434.72,229.02 1435.40,230.91 1436.13,233.73"/>
+        <lane id=":n_eb_pala_pala_0_1" index="1" speed="19.40" length="9.21" width="3.25" shape="1429.40,226.81 1430.87,228.88 1431.74,230.40 1432.34,232.04 1432.97,234.50"/>
+    </edge>
+    <edge id=":n_eb_rcbc_0" function="internal">
+        <lane id=":n_eb_rcbc_0_0" index="0" speed="4.97" length="9.23" width="3.25" shape="17.18,2875.94 17.44,2879.21 18.05,2880.39 19.02,2879.47 20.33,2876.46"/>
+        <lane id=":n_eb_rcbc_0_1" index="1" speed="8.07" length="27.70" width="3.25" shape="13.93,2876.00 14.72,2885.83 16.56,2889.37 19.45,2886.62 23.38,2877.58"/>
+    </edge>
+    <edge id=":n_eb_rkp_trading_0" function="internal">
+        <lane id=":n_eb_rkp_trading_0_0" index="0" speed="6.85" length="2.41" width="3.25" shape="1454.45,354.49 1454.53,355.55 1454.46,356.29 1454.16,356.98 1453.56,357.86"/>
+        <lane id=":n_eb_rkp_trading_0_1" index="1" speed="4.32" length="2.41" width="3.25" shape="1451.22,354.84 1451.24,355.20 1451.22,355.44 1451.12,355.67 1450.92,355.97"/>
+    </edge>
+    <edge id=":n_eb_seven_eleven_0" function="internal">
+        <lane id=":n_eb_seven_eleven_0_0" index="0" speed="60.00" length="0.43" width="3.25" shape="1445.28,271.14 1445.32,271.33 1445.35,271.45 1445.36,271.58 1445.39,271.77"/>
+        <lane id=":n_eb_seven_eleven_0_1" index="1" speed="60.00" length="0.43" width="3.25" shape="1442.12,271.91 1442.13,271.98 1442.14,272.02 1442.15,272.06 1442.16,272.12"/>
+    </edge>
+    <edge id=":n_eb_villa_verde_0" function="internal">
+        <lane id=":n_eb_villa_verde_0_0" index="0" speed="60.00" length="0.73" width="3.25" shape="264.47,2017.67 264.41,2017.76 264.37,2017.82 264.34,2017.89 264.29,2017.99"/>
+        <lane id=":n_eb_villa_verde_0_1" index="1" speed="60.00" length="0.73" width="3.25" shape="261.83,2015.78 261.64,2016.04 261.52,2016.23 261.42,2016.44 261.30,2016.74"/>
+    </edge>
+    <edge id=":n_eb_vista_mall_0" function="internal">
+        <lane id=":n_eb_vista_mall_0_0" index="0" speed="60.00" length="0.40" width="3.25" shape="231.12,2097.27 231.10,2097.33 231.09,2097.36 231.07,2097.40 231.06,2097.46"/>
+        <lane id=":n_eb_vista_mall_0_1" index="1" speed="60.00" length="0.40" width="3.25" shape="228.12,2096.02 228.06,2096.18 228.01,2096.30 227.98,2096.41 227.93,2096.58"/>
+    </edge>
+    <edge id=":n_eb_waltermart_int_0" function="internal">
+        <lane id=":n_eb_waltermart_int_0_0" index="0" speed="60.00" length="0.96" width="3.25" shape="16.97,2862.77 16.94,2862.90 16.92,2863.00 16.91,2863.10 16.91,2863.24"/>
+        <lane id=":n_eb_waltermart_int_0_1" index="1" speed="15.92" length="0.96" width="3.25" shape="13.84,2861.89 13.73,2862.30 13.68,2862.59 13.66,2862.88 13.66,2863.31"/>
+    </edge>
+    <edge id=":n_wb_korean_grocery_0" function="internal">
+        <lane id=":n_wb_korean_grocery_0_0" index="0" speed="8.18" length="7.49" width="3.25" shape="1329.52,83.01 1328.55,81.35 1328.02,79.61 1327.94,77.79 1328.29,75.90"/>
+        <lane id=":n_wb_korean_grocery_0_1" index="1" speed="6.48" length="4.49" width="3.25" shape="1332.14,81.10 1331.56,80.10 1331.25,79.05 1331.20,77.96 1331.41,76.83"/>
+        <lane id=":n_wb_korean_grocery_0_2" index="2" speed="4.12" length="1.50" width="3.25" shape="1334.77,79.18 1334.57,78.85 1334.47,78.50 1334.45,78.13 1334.52,77.76"/>
+    </edge>
+    <edge id=":n_wb_pala_pala_0" function="internal">
+        <lane id=":n_wb_pala_pala_0_0" index="0" speed="60.00" length="1.85" width="3.25" shape="1434.95,227.48 1434.90,227.30 1434.86,227.18 1434.79,227.07 1434.69,226.93"/>
+        <lane id=":n_wb_pala_pala_0_1" index="1" speed="9.58" length="1.85" width="3.25" shape="1438.10,226.67 1437.95,226.14 1437.82,225.78 1437.63,225.45 1437.31,225.01"/>
+        <lane id=":n_wb_pala_pala_0_2" index="2" speed="12.25" length="1.85" width="3.25" shape="1441.24,225.85 1441.00,224.97 1440.78,224.38 1440.47,223.84 1439.94,223.09"/>
+    </edge>
+    <edge id=":n_wb_rcbc_0" function="internal">
+        <lane id=":n_wb_rcbc_0_0" index="0" speed="9.80" length="44.21" width="3.25" shape="4.64,2907.00 9.65,2891.56 9.88,2885.69 5.33,2889.41 -3.99,2902.70"/>
+        <lane id=":n_wb_rcbc_0_1" index="1" speed="5.83" length="14.24" width="3.25" shape="1.71,2905.54 3.33,2900.57 3.40,2898.68 1.94,2899.88 -1.06,2904.16"/>
+    </edge>
+    <edge id=":n_wb_rkp_trading_0" function="internal">
+        <lane id=":n_wb_rkp_trading_0_0" index="0" speed="7.49" length="6.24" width="3.25" shape="1452.04,367.28 1452.71,366.29 1453.05,365.52 1453.16,364.69 1453.10,363.50"/>
+        <lane id=":n_wb_rkp_trading_0_1" index="1" speed="9.23" length="6.24" width="3.25" shape="1454.68,369.17 1455.72,367.63 1456.27,366.43 1456.43,365.12 1456.34,363.26"/>
+        <lane id=":n_wb_rkp_trading_0_2" index="2" speed="10.48" length="6.24" width="3.25" shape="1454.68,369.17 1456.45,367.41 1458.10,366.37 1459.26,365.19 1459.58,363.02"/>
+    </edge>
+    <edge id=":n_wb_seven_eleven_0" function="internal">
+        <lane id=":n_wb_seven_eleven_0_0" index="0" speed="60.00" length="0.87" width="3.25" shape="1446.35,271.77 1446.34,271.68 1446.34,271.62 1446.33,271.57 1446.30,271.48"/>
+        <lane id=":n_wb_seven_eleven_0_1" index="1" speed="60.00" length="0.87" width="3.25" shape="1449.59,271.53 1449.57,271.27 1449.55,271.10 1449.51,270.92 1449.45,270.67"/>
+        <lane id=":n_wb_seven_eleven_0_2" index="2" speed="60.00" length="0.87" width="3.25" shape="1452.83,271.29 1452.80,270.86 1452.76,270.57 1452.70,270.28 1452.60,269.86"/>
+    </edge>
+    <edge id=":n_wb_villa_verde_0" function="internal">
+        <lane id=":n_wb_villa_verde_0_0" index="0" speed="60.00" length="0.74" width="3.25" shape="267.03,2021.61 267.16,2021.31 267.26,2021.10 267.38,2020.91 267.57,2020.64"/>
+        <lane id=":n_wb_villa_verde_0_1" index="1" speed="60.00" length="0.74" width="3.25" shape="270.03,2022.86 270.07,2022.76 270.11,2022.69 270.15,2022.62 270.21,2022.53"/>
+    </edge>
+    <edge id=":n_wb_vista_mall_0" function="internal">
+        <lane id=":n_wb_vista_mall_0_0" index="0" speed="60.00" length="0.39" width="3.25" shape="235.22,2098.38 235.26,2098.21 235.30,2098.09 235.34,2097.98 235.41,2097.82"/>
+        <lane id=":n_wb_vista_mall_0_1" index="1" speed="60.00" length="0.39" width="3.25" shape="238.35,2099.25 238.36,2099.20 238.37,2099.16 238.39,2099.12 238.41,2099.07"/>
+    </edge>
+    <edge id=":n_wb_waltermart_int_0" function="internal">
+        <lane id=":n_wb_waltermart_int_0_0" index="0" speed="60.00" length="0.99" width="3.25" shape="20.87,2864.33 20.95,2864.21 21.00,2864.12 21.03,2864.02 21.07,2863.88"/>
+        <lane id=":n_wb_waltermart_int_0_1" index="1" speed="14.34" length="0.99" width="3.25" shape="23.60,2866.10 23.83,2865.73 23.98,2865.46 24.08,2865.18 24.20,2864.76"/>
+    </edge>
+
+    <edge id="eb_korean_grocery__pala_pala" from="n_eb_korean_grocery" to="n_eb_pala_pala" priority="3">
+        <lane id="eb_korean_grocery__pala_pala_0" index="0" speed="60.00" length="174.16" width="3.25" shape="1332.27,82.11 1434.66,222.99"/>
+        <lane id="eb_korean_grocery__pala_pala_1" index="1" speed="60.00" length="174.16" width="3.25" shape="1329.64,84.02 1432.03,224.90"/>
+        <lane id="eb_korean_grocery__pala_pala_2" index="2" speed="60.00" length="174.16" width="3.25" shape="1327.01,85.93 1429.40,226.81"/>
+    </edge>
+    <edge id="eb_pala_pala__seven_eleven" from="n_eb_pala_pala" to="n_eb_seven_eleven" priority="3">
+        <lane id="eb_pala_pala__seven_eleven_0" index="0" speed="60.00" length="38.52" width="3.25" shape="1436.13,233.73 1445.28,271.14"/>
+        <lane id="eb_pala_pala__seven_eleven_1" index="1" speed="60.00" length="38.52" width="3.25" shape="1432.97,234.50 1442.12,271.91"/>
+    </edge>
+    <edge id="eb_rcbc__waltermart" from="n_eb_rcbc" to="n_eb_waltermart" priority="3">
+        <lane id="eb_rcbc__waltermart_0" index="0" speed="60.00" length="153.37" width="3.25" shape="20.33,2876.46 73.01,2732.43"/>
+        <lane id="eb_rcbc__waltermart_1" index="1" speed="60.00" length="153.37" width="3.25" shape="23.38,2877.58 76.06,2733.54"/>
+    </edge>
+    <edge id="eb_rkp_trading__villa_verde" from="n_eb_rkp_trading" to="n_eb_villa_verde" priority="3">
+        <lane id="eb_rkp_trading__villa_verde_0" index="0" speed="60.00" length="2041.79" width="3.25" shape="1453.56,357.86 264.47,2017.67"/>
+        <lane id="eb_rkp_trading__villa_verde_1" index="1" speed="60.00" length="2041.79" width="3.25" shape="1450.92,355.97 261.83,2015.78"/>
+    </edge>
+    <edge id="eb_robinsons__korean_grocery" from="n_eb_robinsons" to="n_eb_korean_grocery" priority="3">
+        <lane id="eb_robinsons__korean_grocery_0" index="0" speed="60.00" length="81.34" width="3.25" shape="1352.64,2.06 1332.01,80.74"/>
+        <lane id="eb_robinsons__korean_grocery_1" index="1" speed="60.00" length="81.34" width="3.25" shape="1349.50,1.24 1328.87,79.92"/>
+        <lane id="eb_robinsons__korean_grocery_2" index="2" speed="60.00" length="81.34" width="3.25" shape="1346.35,0.41 1325.72,79.09"/>
+    </edge>
+    <edge id="eb_seven_eleven__rkp_trading" from="n_eb_seven_eleven" to="n_eb_rkp_trading" priority="3">
+        <lane id="eb_seven_eleven__rkp_trading_0" index="0" speed="60.00" length="83.21" width="3.25" shape="1445.39,271.77 1454.45,354.49"/>
+        <lane id="eb_seven_eleven__rkp_trading_1" index="1" speed="60.00" length="83.21" width="3.25" shape="1442.16,272.12 1451.22,354.84"/>
+    </edge>
+    <edge id="eb_villa_verde__vista_mall" from="n_eb_villa_verde" to="n_eb_vista_mall" priority="3">
+        <lane id="eb_villa_verde__vista_mall_0" index="0" speed="60.00" length="85.94" width="3.25" shape="264.29,2017.99 231.12,2097.27"/>
+        <lane id="eb_villa_verde__vista_mall_1" index="1" speed="60.00" length="85.94" width="3.25" shape="261.30,2016.74 228.12,2096.02"/>
+    </edge>
+    <edge id="eb_vista_mall__waltermart_int" from="n_eb_vista_mall" to="n_eb_waltermart_int" priority="3">
+        <lane id="eb_vista_mall__waltermart_int_0" index="0" speed="60.00" length="794.69" width="3.25" shape="231.06,2097.46 16.97,2862.77"/>
+        <lane id="eb_vista_mall__waltermart_int_1" index="1" speed="60.00" length="794.69" width="3.25" shape="227.93,2096.58 13.84,2861.89"/>
+    </edge>
+    <edge id="eb_waltermart_int__rcbc" from="n_eb_waltermart_int" to="n_eb_rcbc" priority="3">
+        <lane id="eb_waltermart_int__rcbc_0" index="0" speed="60.00" length="12.70" width="3.25" shape="16.91,2863.24 17.18,2875.94"/>
+        <lane id="eb_waltermart_int__rcbc_1" index="1" speed="60.00" length="12.70" width="3.25" shape="13.66,2863.31 13.93,2876.00"/>
+    </edge>
+    <edge id="wb_korean_grocery__robinsons" from="n_wb_korean_grocery" to="n_wb_robinsons" priority="3">
+        <lane id="wb_korean_grocery__robinsons_0" index="0" speed="60.00" length="77.68" width="3.25" shape="1328.29,75.90 1350.47,1.45"/>
+        <lane id="wb_korean_grocery__robinsons_1" index="1" speed="60.00" length="77.68" width="3.25" shape="1331.41,76.83 1353.59,2.38"/>
+        <lane id="wb_korean_grocery__robinsons_2" index="2" speed="60.00" length="77.68" width="3.25" shape="1334.52,77.76 1356.70,3.31"/>
+    </edge>
+    <edge id="wb_pala_pala__korean_grocery" from="n_wb_pala_pala" to="n_wb_korean_grocery" priority="3">
+        <lane id="wb_pala_pala__korean_grocery_0" index="0" speed="60.00" length="178.24" width="3.25" shape="1434.69,226.93 1329.52,83.01"/>
+        <lane id="wb_pala_pala__korean_grocery_1" index="1" speed="60.00" length="178.24" width="3.25" shape="1437.31,225.01 1332.14,81.10"/>
+        <lane id="wb_pala_pala__korean_grocery_2" index="2" speed="60.00" length="178.24" width="3.25" shape="1439.94,223.09 1334.77,79.18"/>
+    </edge>
+    <edge id="wb_rcbc__waltermart_int" from="n_wb_rcbc" to="n_wb_waltermart_int" priority="3">
+        <lane id="wb_rcbc__waltermart_int_0" index="0" speed="60.00" length="45.53" width="3.25" shape="-3.99,2902.70 20.87,2864.33"/>
+        <lane id="wb_rcbc__waltermart_int_1" index="1" speed="60.00" length="45.53" width="3.25" shape="-1.06,2904.16 23.60,2866.10"/>
+    </edge>
+    <edge id="wb_rkp_trading__seven_eleven" from="n_wb_rkp_trading" to="n_wb_seven_eleven" priority="3">
+        <lane id="wb_rkp_trading__seven_eleven_0" index="0" speed="60.00" length="91.98" width="3.25" shape="1453.10,363.50 1446.35,271.77"/>
+        <lane id="wb_rkp_trading__seven_eleven_1" index="1" speed="60.00" length="91.98" width="3.25" shape="1456.34,363.26 1449.59,271.53"/>
+        <lane id="wb_rkp_trading__seven_eleven_2" index="2" speed="60.00" length="91.98" width="3.25" shape="1459.58,363.02 1452.83,271.29"/>
+    </edge>
+    <edge id="wb_seven_eleven__pala_pala" from="n_wb_seven_eleven" to="n_wb_pala_pala" priority="3">
+        <lane id="wb_seven_eleven__pala_pala_0" index="0" speed="60.00" length="45.45" width="3.25" shape="1446.30,271.48 1434.95,227.48"/>
+        <lane id="wb_seven_eleven__pala_pala_1" index="1" speed="60.00" length="45.45" width="3.25" shape="1449.45,270.67 1438.10,226.67"/>
+        <lane id="wb_seven_eleven__pala_pala_2" index="2" speed="60.00" length="45.45" width="3.25" shape="1452.60,269.86 1441.24,225.85"/>
+    </edge>
+    <edge id="wb_villa_verde__rkp_trading" from="n_wb_villa_verde" to="n_wb_rkp_trading" priority="3">
+        <lane id="wb_villa_verde__rkp_trading_0" index="0" speed="60.00" length="2033.86" width="3.25" shape="267.57,2020.64 1452.04,367.28"/>
+        <lane id="wb_villa_verde__rkp_trading_1" index="1" speed="60.00" length="2033.86" width="3.25" shape="270.21,2022.53 1454.68,369.17"/>
+    </edge>
+    <edge id="wb_vista_mall__villa_verde" from="n_wb_vista_mall" to="n_wb_villa_verde" priority="3">
+        <lane id="wb_vista_mall__villa_verde_0" index="0" speed="60.00" length="82.51" width="3.25" shape="235.41,2097.82 267.03,2021.61"/>
+        <lane id="wb_vista_mall__villa_verde_1" index="1" speed="60.00" length="82.51" width="3.25" shape="238.41,2099.07 270.03,2022.86"/>
+    </edge>
+    <edge id="wb_waltermart__rcbc" from="n_wb_waltermart" to="n_wb_rcbc" priority="3">
+        <lane id="wb_waltermart__rcbc_0" index="0" speed="60.00" length="187.26" width="3.25" shape="69.02,2730.96 4.64,2907.00"/>
+        <lane id="wb_waltermart__rcbc_1" index="1" speed="60.00" length="187.26" width="3.25" shape="65.97,2729.85 1.71,2905.54"/>
+    </edge>
+    <edge id="wb_waltermart_int__vista_mall" from="n_wb_waltermart_int" to="n_wb_vista_mall" priority="3">
+        <lane id="wb_waltermart_int__vista_mall_0" index="0" speed="60.00" length="794.90" width="3.25" shape="21.07,2863.88 235.22,2098.38"/>
+        <lane id="wb_waltermart_int__vista_mall_1" index="1" speed="60.00" length="794.90" width="3.25" shape="24.20,2864.76 238.35,2099.25"/>
+    </edge>
+
+    <tlLogic id="n_eb_pala_pala" type="static" programID="0" offset="0">
+        <phase duration="74" state="GG"/>
+        <phase duration="11" state="yy"/>
+        <phase duration="5"  state="rr"/>
+    </tlLogic>
+    <tlLogic id="n_eb_waltermart_int" type="static" programID="0" offset="0">
+        <phase duration="74" state="GG"/>
+        <phase duration="11" state="yy"/>
+        <phase duration="5"  state="rr"/>
+    </tlLogic>
+    <tlLogic id="n_wb_pala_pala" type="static" programID="0" offset="0">
+        <phase duration="74" state="GGG"/>
+        <phase duration="11" state="yyy"/>
+        <phase duration="5"  state="rrr"/>
+    </tlLogic>
+    <tlLogic id="n_wb_waltermart_int" type="static" programID="0" offset="0">
+        <phase duration="74" state="GG"/>
+        <phase duration="11" state="yy"/>
+        <phase duration="5"  state="rr"/>
+    </tlLogic>
+
+    <junction id="n_eb_korean_grocery" type="priority" x="1322.98" y="83.15" incLanes="eb_robinsons__korean_grocery_0 eb_robinsons__korean_grocery_1 eb_robinsons__korean_grocery_2" intLanes=":n_eb_korean_grocery_0_0 :n_eb_korean_grocery_0_1 :n_eb_korean_grocery_0_2" shape="1325.70,86.89 1333.58,81.15 1324.15,78.68 1323.80,81.58 1323.95,82.97 1324.32,84.31 1324.90,85.62">
+        <request index="0" response="000" foes="000" cont="0"/>
+        <request index="1" response="000" foes="000" cont="0"/>
+        <request index="2" response="000" foes="000" cont="0"/>
+    </junction>
+    <junction id="n_eb_pala_pala" type="traffic_light" x="1430.44" y="231.00" incLanes="eb_korean_grocery__pala_pala_0 eb_korean_grocery__pala_pala_1 eb_korean_grocery__pala_pala_2" intLanes=":n_eb_pala_pala_0_0 :n_eb_pala_pala_0_1" shape="1431.39,234.89 1437.70,233.34 1437.34,230.90 1437.40,228.97 1437.59,227.34 1437.62,225.79 1437.18,224.09 1435.98,222.03 1428.09,227.76 1429.76,230.17 1430.25,231.09 1430.63,232.05 1430.98,233.25">
+        <request index="0" response="00" foes="00" cont="0"/>
+        <request index="1" response="00" foes="00" cont="0"/>
+    </junction>
+    <junction id="n_eb_rcbc" type="priority" x="13.02" y="2910.63" incLanes="eb_waltermart_int__rcbc_0 eb_waltermart_int__rcbc_1" intLanes=":n_eb_rcbc_0_0 :n_eb_rcbc_0_1" shape="24.91,2878.13 18.80,2875.90 12.30,2876.04 12.85,2885.70 14.02,2891.64 15.81,2893.86 18.22,2892.34 21.25,2887.10">
+        <request index="0" response="00" foes="00" cont="0"/>
+        <request index="1" response="00" foes="00" cont="0"/>
+    </junction>
+    <junction id="n_eb_rkp_trading" type="priority" x="1449.60" y="355.02" incLanes="eb_seven_eleven__rkp_trading_0 eb_seven_eleven__rkp_trading_1" intLanes=":n_eb_rkp_trading_0_0 :n_eb_rkp_trading_0_1" shape="1456.06,354.31 1449.60,355.02 1454.88,358.81 1455.85,357.31 1456.07,356.72 1456.17,356.08 1456.16,355.32">
+        <request index="0" response="00" foes="00" cont="0"/>
+        <request index="1" response="00" foes="00" cont="0"/>
+    </junction>
+    <junction id="n_eb_robinsons" type="dead_end" x="1344.78" y="0.00" incLanes="" intLanes="" shape="1344.78,-0.00 1354.21,2.47"/>
+    <junction id="n_eb_seven_eleven" type="priority" x="1440.54" y="272.30" incLanes="eb_pala_pala__seven_eleven_0 eb_pala_pala__seven_eleven_1" intLanes=":n_eb_seven_eleven_0_0 :n_eb_seven_eleven_0_1" shape="1440.54,272.30 1447.00,271.59 1446.97,271.28 1446.95,271.17 1446.93,271.06 1446.85,270.76">
+        <request index="0" response="00" foes="00" cont="0"/>
+        <request index="1" response="00" foes="00" cont="0"/>
+    </junction>
+    <junction id="n_eb_villa_verde" type="priority" x="260.08" y="2015.43" incLanes="eb_rkp_trading__villa_verde_0 eb_rkp_trading__villa_verde_1" intLanes=":n_eb_villa_verde_0_0 :n_eb_villa_verde_0_1" shape="265.79,2018.62 260.51,2014.83 260.20,2015.28 260.10,2015.44 260.01,2015.61 259.92,2015.82 259.80,2016.11">
+        <request index="0" response="00" foes="00" cont="0"/>
+        <request index="1" response="00" foes="00" cont="0"/>
+    </junction>
+    <junction id="n_eb_vista_mall" type="priority" x="226.47" y="2095.76" incLanes="eb_villa_verde__vista_mall_0 eb_villa_verde__vista_mall_1" intLanes=":n_eb_vista_mall_0_0 :n_eb_vista_mall_0_1" shape="232.62,2097.90 226.63,2095.39 226.51,2095.66 226.48,2095.76 226.44,2095.86 226.36,2096.15">
+        <request index="0" response="00" foes="00" cont="0"/>
+        <request index="1" response="00" foes="00" cont="0"/>
+    </junction>
+    <junction id="n_eb_waltermart" type="dead_end" x="77.59" y="2734.10" incLanes="eb_rcbc__waltermart_0 eb_rcbc__waltermart_1" intLanes="" shape="71.49,2731.87 77.59,2734.10"/>
+    <junction id="n_eb_waltermart_int" type="traffic_light" x="12.02" y="2862.38" incLanes="eb_vista_mall__waltermart_int_0 eb_vista_mall__waltermart_int_1" intLanes=":n_eb_waltermart_int_0_0 :n_eb_waltermart_int_0_1" shape="12.04,2863.34 18.54,2863.21 12.28,2861.45 12.10,2862.14 12.06,2862.38 12.04,2862.63 12.03,2862.93">
+        <request index="0" response="00" foes="00" cont="0"/>
+        <request index="1" response="00" foes="00" cont="0"/>
+    </junction>
+    <junction id="n_wb_korean_grocery" type="priority" x="1336.08" y="78.22" incLanes="wb_pala_pala__korean_grocery_0 wb_pala_pala__korean_grocery_1 wb_pala_pala__korean_grocery_2" intLanes=":n_wb_korean_grocery_0_0 :n_wb_korean_grocery_0_1 :n_wb_korean_grocery_0_2" shape="1328.21,83.97 1336.08,78.22 1326.74,75.44 1326.29,78.44 1326.41,79.89 1326.78,81.29 1327.37,82.65">
+        <request index="0" response="000" foes="000" cont="0"/>
+        <request index="1" response="000" foes="000" cont="0"/>
+        <request index="2" response="000" foes="000" cont="0"/>
+    </junction>
+    <junction id="n_wb_pala_pala" type="traffic_light" x="1442.35" y="223.64" incLanes="wb_seven_eleven__pala_pala_0 wb_seven_eleven__pala_pala_1 wb_seven_eleven__pala_pala_2" intLanes=":n_wb_pala_pala_0_0 :n_wb_pala_pala_0_1 :n_wb_pala_pala_0_2" shape="1433.38,227.88 1442.82,225.45 1442.45,224.13 1442.27,223.68 1442.03,223.26 1441.71,222.77 1441.25,222.13">
+        <request index="0" response="000" foes="000" cont="0"/>
+        <request index="1" response="000" foes="000" cont="0"/>
+        <request index="2" response="000" foes="000" cont="0"/>
+    </junction>
+    <junction id="n_wb_rcbc" type="priority" x="0.00" y="2905.50" incLanes="wb_waltermart__rcbc_0 wb_waltermart__rcbc_1" intLanes=":n_wb_rcbc_0_0 :n_wb_rcbc_0_1" shape="0.00,2905.50 -5.45,2901.97 6.10,2907.73">
+        <request index="0" response="00" foes="00" cont="0"/>
+        <request index="1" response="00" foes="00" cont="0"/>
+    </junction>
+    <junction id="n_wb_rkp_trading" type="priority" x="1461.20" y="362.86" incLanes="wb_villa_verde__rkp_trading_0 wb_villa_verde__rkp_trading_1" intLanes=":n_wb_rkp_trading_0_0 :n_wb_rkp_trading_0_1 :n_wb_rkp_trading_0_2" shape="1461.20,362.90 1451.48,363.62 1451.51,364.69 1451.44,365.07 1451.30,365.43 1451.06,365.83 1450.72,366.33 1456.00,370.12 1458.57,367.63 1459.70,366.82 1460.57,365.94 1461.11,364.73">
+        <request index="0" response="000" foes="000" cont="0"/>
+        <request index="1" response="000" foes="000" cont="0"/>
+        <request index="2" response="000" foes="000" cont="0"/>
+    </junction>
+    <junction id="n_wb_robinsons" type="dead_end" x="1358.26" y="3.77" incLanes="wb_korean_grocery__robinsons_0 wb_korean_grocery__robinsons_1 wb_korean_grocery__robinsons_2" intLanes="" shape="1348.92,0.99 1358.26,3.77"/>
+    <junction id="n_wb_seven_eleven" type="priority" x="1454.39" y="270.30" incLanes="wb_rkp_trading__seven_eleven_0 wb_rkp_trading__seven_eleven_1 wb_rkp_trading__seven_eleven_2" intLanes=":n_wb_seven_eleven_0_0 :n_wb_seven_eleven_0_1 :n_wb_seven_eleven_0_2" shape="1444.73,271.89 1454.45,271.17 1454.40,270.53 1454.37,270.30 1454.33,270.08 1454.26,269.81 1454.17,269.45">
+        <request index="0" response="000" foes="000" cont="0"/>
+        <request index="1" response="000" foes="000" cont="0"/>
+        <request index="2" response="000" foes="000" cont="0"/>
+    </junction>
+    <junction id="n_wb_villa_verde" type="priority" x="271.53" y="2023.48" incLanes="wb_vista_mall__villa_verde_0 wb_vista_mall__villa_verde_1" intLanes=":n_wb_villa_verde_0_0 :n_wb_villa_verde_0_1" shape="271.53,2023.48 266.25,2019.69 265.93,2020.15 265.83,2020.31 265.74,2020.48 265.65,2020.70 265.53,2020.99">
+        <request index="0" response="00" foes="00" cont="0"/>
+        <request index="1" response="00" foes="00" cont="0"/>
+    </junction>
+    <junction id="n_wb_vista_mall" type="priority" x="239.91" y="2099.69" incLanes="wb_waltermart_int__vista_mall_0 wb_waltermart_int__vista_mall_1" intLanes=":n_wb_vista_mall_0_0 :n_wb_vista_mall_0_1" shape="239.91,2099.69 233.91,2097.20 233.80,2097.47 233.76,2097.56 233.73,2097.66 233.65,2097.94">
+        <request index="0" response="00" foes="00" cont="0"/>
+        <request index="1" response="00" foes="00" cont="0"/>
+    </junction>
+    <junction id="n_wb_waltermart" type="dead_end" x="64.44" y="2729.29" incLanes="" intLanes="" shape="64.44,2729.29 70.54,2731.52"/>
+    <junction id="n_wb_waltermart_int" type="traffic_light" x="25.50" y="2866.15" incLanes="wb_rcbc__waltermart_int_0 wb_rcbc__waltermart_int_1" intLanes=":n_wb_waltermart_int_0_0 :n_wb_waltermart_int_0_1" shape="25.77,2865.20 19.51,2863.45 24.96,2866.98 25.35,2866.36 25.46,2866.13 25.56,2865.90 25.65,2865.60">
+        <request index="0" response="00" foes="00" cont="0"/>
+        <request index="1" response="00" foes="00" cont="0"/>
+    </junction>
+
+    <connection from="eb_korean_grocery__pala_pala" to="eb_pala_pala__seven_eleven" fromLane="1" toLane="0" via=":n_eb_pala_pala_0_0" tl="n_eb_pala_pala" linkIndex="0" dir="s" state="O"/>
+    <connection from="eb_korean_grocery__pala_pala" to="eb_pala_pala__seven_eleven" fromLane="2" toLane="1" via=":n_eb_pala_pala_0_1" tl="n_eb_pala_pala" linkIndex="1" dir="s" state="O"/>
+    <connection from="eb_pala_pala__seven_eleven" to="eb_seven_eleven__rkp_trading" fromLane="0" toLane="0" via=":n_eb_seven_eleven_0_0" dir="s" state="M"/>
+    <connection from="eb_pala_pala__seven_eleven" to="eb_seven_eleven__rkp_trading" fromLane="1" toLane="1" via=":n_eb_seven_eleven_0_1" dir="s" state="M"/>
+    <connection from="eb_rkp_trading__villa_verde" to="eb_villa_verde__vista_mall" fromLane="0" toLane="0" via=":n_eb_villa_verde_0_0" dir="s" state="M"/>
+    <connection from="eb_rkp_trading__villa_verde" to="eb_villa_verde__vista_mall" fromLane="1" toLane="1" via=":n_eb_villa_verde_0_1" dir="s" state="M"/>
+    <connection from="eb_robinsons__korean_grocery" to="eb_korean_grocery__pala_pala" fromLane="0" toLane="0" via=":n_eb_korean_grocery_0_0" dir="r" state="M"/>
+    <connection from="eb_robinsons__korean_grocery" to="eb_korean_grocery__pala_pala" fromLane="1" toLane="1" via=":n_eb_korean_grocery_0_1" dir="r" state="M"/>
+    <connection from="eb_robinsons__korean_grocery" to="eb_korean_grocery__pala_pala" fromLane="2" toLane="2" via=":n_eb_korean_grocery_0_2" dir="r" state="M"/>
+    <connection from="eb_seven_eleven__rkp_trading" to="eb_rkp_trading__villa_verde" fromLane="0" toLane="0" via=":n_eb_rkp_trading_0_0" dir="s" state="M"/>
+    <connection from="eb_seven_eleven__rkp_trading" to="eb_rkp_trading__villa_verde" fromLane="1" toLane="1" via=":n_eb_rkp_trading_0_1" dir="s" state="M"/>
+    <connection from="eb_villa_verde__vista_mall" to="eb_vista_mall__waltermart_int" fromLane="0" toLane="0" via=":n_eb_vista_mall_0_0" dir="s" state="M"/>
+    <connection from="eb_villa_verde__vista_mall" to="eb_vista_mall__waltermart_int" fromLane="1" toLane="1" via=":n_eb_vista_mall_0_1" dir="s" state="M"/>
+    <connection from="eb_vista_mall__waltermart_int" to="eb_waltermart_int__rcbc" fromLane="0" toLane="0" via=":n_eb_waltermart_int_0_0" tl="n_eb_waltermart_int" linkIndex="0" dir="s" state="O"/>
+    <connection from="eb_vista_mall__waltermart_int" to="eb_waltermart_int__rcbc" fromLane="1" toLane="1" via=":n_eb_waltermart_int_0_1" tl="n_eb_waltermart_int" linkIndex="1" dir="s" state="O"/>
+    <connection from="eb_waltermart_int__rcbc" to="eb_rcbc__waltermart" fromLane="0" toLane="0" via=":n_eb_rcbc_0_0" dir="r" state="M"/>
+    <connection from="eb_waltermart_int__rcbc" to="eb_rcbc__waltermart" fromLane="1" toLane="1" via=":n_eb_rcbc_0_1" dir="r" state="M"/>
+    <connection from="wb_pala_pala__korean_grocery" to="wb_korean_grocery__robinsons" fromLane="0" toLane="0" via=":n_wb_korean_grocery_0_0" dir="l" state="M"/>
+    <connection from="wb_pala_pala__korean_grocery" to="wb_korean_grocery__robinsons" fromLane="1" toLane="1" via=":n_wb_korean_grocery_0_1" dir="l" state="M"/>
+    <connection from="wb_pala_pala__korean_grocery" to="wb_korean_grocery__robinsons" fromLane="2" toLane="2" via=":n_wb_korean_grocery_0_2" dir="l" state="M"/>
+    <connection from="wb_rcbc__waltermart_int" to="wb_waltermart_int__vista_mall" fromLane="0" toLane="0" via=":n_wb_waltermart_int_0_0" tl="n_wb_waltermart_int" linkIndex="0" dir="s" state="O"/>
+    <connection from="wb_rcbc__waltermart_int" to="wb_waltermart_int__vista_mall" fromLane="1" toLane="1" via=":n_wb_waltermart_int_0_1" tl="n_wb_waltermart_int" linkIndex="1" dir="s" state="O"/>
+    <connection from="wb_rkp_trading__seven_eleven" to="wb_seven_eleven__pala_pala" fromLane="0" toLane="0" via=":n_wb_seven_eleven_0_0" dir="s" state="M"/>
+    <connection from="wb_rkp_trading__seven_eleven" to="wb_seven_eleven__pala_pala" fromLane="1" toLane="1" via=":n_wb_seven_eleven_0_1" dir="s" state="M"/>
+    <connection from="wb_rkp_trading__seven_eleven" to="wb_seven_eleven__pala_pala" fromLane="2" toLane="2" via=":n_wb_seven_eleven_0_2" dir="s" state="M"/>
+    <connection from="wb_seven_eleven__pala_pala" to="wb_pala_pala__korean_grocery" fromLane="0" toLane="0" via=":n_wb_pala_pala_0_0" tl="n_wb_pala_pala" linkIndex="0" dir="s" state="O"/>
+    <connection from="wb_seven_eleven__pala_pala" to="wb_pala_pala__korean_grocery" fromLane="1" toLane="1" via=":n_wb_pala_pala_0_1" tl="n_wb_pala_pala" linkIndex="1" dir="s" state="O"/>
+    <connection from="wb_seven_eleven__pala_pala" to="wb_pala_pala__korean_grocery" fromLane="2" toLane="2" via=":n_wb_pala_pala_0_2" tl="n_wb_pala_pala" linkIndex="2" dir="s" state="O"/>
+    <connection from="wb_villa_verde__rkp_trading" to="wb_rkp_trading__seven_eleven" fromLane="0" toLane="0" via=":n_wb_rkp_trading_0_0" dir="s" state="M"/>
+    <connection from="wb_villa_verde__rkp_trading" to="wb_rkp_trading__seven_eleven" fromLane="1" toLane="1" via=":n_wb_rkp_trading_0_1" dir="s" state="M"/>
+    <connection from="wb_villa_verde__rkp_trading" to="wb_rkp_trading__seven_eleven" fromLane="1" toLane="2" via=":n_wb_rkp_trading_0_2" dir="s" state="M"/>
+    <connection from="wb_vista_mall__villa_verde" to="wb_villa_verde__rkp_trading" fromLane="0" toLane="0" via=":n_wb_villa_verde_0_0" dir="s" state="M"/>
+    <connection from="wb_vista_mall__villa_verde" to="wb_villa_verde__rkp_trading" fromLane="1" toLane="1" via=":n_wb_villa_verde_0_1" dir="s" state="M"/>
+    <connection from="wb_waltermart__rcbc" to="wb_rcbc__waltermart_int" fromLane="0" toLane="0" via=":n_wb_rcbc_0_0" dir="r" state="M"/>
+    <connection from="wb_waltermart__rcbc" to="wb_rcbc__waltermart_int" fromLane="1" toLane="1" via=":n_wb_rcbc_0_1" dir="r" state="M"/>
+    <connection from="wb_waltermart_int__vista_mall" to="wb_vista_mall__villa_verde" fromLane="0" toLane="0" via=":n_wb_vista_mall_0_0" dir="s" state="M"/>
+    <connection from="wb_waltermart_int__vista_mall" to="wb_vista_mall__villa_verde" fromLane="1" toLane="1" via=":n_wb_vista_mall_0_1" dir="s" state="M"/>
+
+    <connection from=":n_eb_korean_grocery_0" to="eb_korean_grocery__pala_pala" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":n_eb_korean_grocery_0" to="eb_korean_grocery__pala_pala" fromLane="1" toLane="1" dir="r" state="M"/>
+    <connection from=":n_eb_korean_grocery_0" to="eb_korean_grocery__pala_pala" fromLane="2" toLane="2" dir="r" state="M"/>
+    <connection from=":n_eb_pala_pala_0" to="eb_pala_pala__seven_eleven" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":n_eb_pala_pala_0" to="eb_pala_pala__seven_eleven" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":n_eb_rcbc_0" to="eb_rcbc__waltermart" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":n_eb_rcbc_0" to="eb_rcbc__waltermart" fromLane="1" toLane="1" dir="r" state="M"/>
+    <connection from=":n_eb_rkp_trading_0" to="eb_rkp_trading__villa_verde" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":n_eb_rkp_trading_0" to="eb_rkp_trading__villa_verde" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":n_eb_seven_eleven_0" to="eb_seven_eleven__rkp_trading" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":n_eb_seven_eleven_0" to="eb_seven_eleven__rkp_trading" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":n_eb_villa_verde_0" to="eb_villa_verde__vista_mall" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":n_eb_villa_verde_0" to="eb_villa_verde__vista_mall" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":n_eb_vista_mall_0" to="eb_vista_mall__waltermart_int" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":n_eb_vista_mall_0" to="eb_vista_mall__waltermart_int" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":n_eb_waltermart_int_0" to="eb_waltermart_int__rcbc" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":n_eb_waltermart_int_0" to="eb_waltermart_int__rcbc" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":n_wb_korean_grocery_0" to="wb_korean_grocery__robinsons" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":n_wb_korean_grocery_0" to="wb_korean_grocery__robinsons" fromLane="1" toLane="1" dir="l" state="M"/>
+    <connection from=":n_wb_korean_grocery_0" to="wb_korean_grocery__robinsons" fromLane="2" toLane="2" dir="l" state="M"/>
+    <connection from=":n_wb_pala_pala_0" to="wb_pala_pala__korean_grocery" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":n_wb_pala_pala_0" to="wb_pala_pala__korean_grocery" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":n_wb_pala_pala_0" to="wb_pala_pala__korean_grocery" fromLane="2" toLane="2" dir="s" state="M"/>
+    <connection from=":n_wb_rcbc_0" to="wb_rcbc__waltermart_int" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":n_wb_rcbc_0" to="wb_rcbc__waltermart_int" fromLane="1" toLane="1" dir="r" state="M"/>
+    <connection from=":n_wb_rkp_trading_0" to="wb_rkp_trading__seven_eleven" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":n_wb_rkp_trading_0" to="wb_rkp_trading__seven_eleven" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":n_wb_rkp_trading_0" to="wb_rkp_trading__seven_eleven" fromLane="2" toLane="2" dir="s" state="M"/>
+    <connection from=":n_wb_seven_eleven_0" to="wb_seven_eleven__pala_pala" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":n_wb_seven_eleven_0" to="wb_seven_eleven__pala_pala" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":n_wb_seven_eleven_0" to="wb_seven_eleven__pala_pala" fromLane="2" toLane="2" dir="s" state="M"/>
+    <connection from=":n_wb_villa_verde_0" to="wb_villa_verde__rkp_trading" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":n_wb_villa_verde_0" to="wb_villa_verde__rkp_trading" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":n_wb_vista_mall_0" to="wb_vista_mall__villa_verde" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":n_wb_vista_mall_0" to="wb_vista_mall__villa_verde" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":n_wb_waltermart_int_0" to="wb_waltermart_int__vista_mall" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":n_wb_waltermart_int_0" to="wb_waltermart_int__vista_mall" fromLane="1" toLane="1" dir="s" state="M"/>
+
+</net>

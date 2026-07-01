@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<nodes>
+  <node id="n_eb_robinsons" x="-169.66" y="16.24" type="priority"/>
+  <node id="n_wb_robinsons" x="-156.18" y="20.01" type="priority"/>
+  <node id="n_eb_korean_grocery" x="-191.46" y="99.39" type="priority"/>
+  <node id="n_wb_korean_grocery" x="-178.36" y="94.46" type="priority"/>
+  <node id="n_eb_pala_pala" x="-84.00" y="247.24" type="traffic_light"/>
+  <node id="n_wb_pala_pala" x="-72.09" y="239.88" type="traffic_light"/>
+  <node id="n_eb_seven_eleven" x="-73.90" y="288.54" type="priority"/>
+  <node id="n_wb_seven_eleven" x="-60.05" y="286.54" type="priority"/>
+  <node id="n_eb_rkp_trading" x="-64.84" y="371.26" type="priority"/>
+  <node id="n_wb_rkp_trading" x="-53.24" y="379.10" type="priority"/>
+  <node id="n_eb_villa_verde" x="-1254.36" y="2031.67" type="priority"/>
+  <node id="n_wb_villa_verde" x="-1242.91" y="2039.72" type="priority"/>
+  <node id="n_eb_vista_mall" x="-1287.97" y="2112.00" type="priority"/>
+  <node id="n_wb_vista_mall" x="-1274.53" y="2115.93" type="priority"/>
+  <node id="n_eb_waltermart_int" x="-1502.42" y="2878.62" type="traffic_light"/>
+  <node id="n_wb_waltermart_int" x="-1488.94" y="2882.39" type="traffic_light"/>
+  <node id="n_eb_rcbc" x="-1501.42" y="2926.87" type="priority"/>
+  <node id="n_wb_rcbc" x="-1514.44" y="2921.74" type="priority"/>
+  <node id="n_eb_waltermart" x="-1436.85" y="2750.34" type="priority"/>
+  <node id="n_wb_waltermart" x="-1450.00" y="2745.53" type="priority"/>
+</nodes>
