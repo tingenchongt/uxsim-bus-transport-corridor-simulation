@@ -9,8 +9,9 @@ cache/
 out*/
 *.log
 
-# Field data & large binaries
+# Field data & large binaries (June 2026 workbook is tracked in repo)
 *.xlsx
+!Bus_Data_Collection_June 2026.xlsx
 *.pptx
 
 # Simulation outputs (regenerate with scripts)

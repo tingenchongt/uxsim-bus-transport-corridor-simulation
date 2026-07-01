@@ -1,7 +1,0 @@
-session,data_origin,baseline_avg_travel_time_s,optimized_avg_travel_time_s,time_saved_per_trip_s,pct_improvement_travel_time
-Morning Session,robinsons_location,404.61,333.55,71.06,17.56
-Morning Session,waltermart_location,407.5,279.34,128.16,31.45
-Lunch,robinsons_location,404.58,361.88,42.7,10.55
-Lunch,waltermart_location,404.79,292.92,111.87,27.64
-Afternoon Session,robinsons_location,412.93,352.93,60.0,14.53
-Afternoon Session,waltermart_location,413.05,285.12,127.93,30.97
