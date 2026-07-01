@@ -379,6 +379,10 @@ def trip_origin_stop(
             trip_direction=trip_direction,
         ):
             return s
+    # rb→wm: field boarding is upstream (Korean grocery / Pala-Pala), even when no mids are served.
+    for s in path:
+        if s.kind == "informal" and s.trip_direction in ("rb_to_wm", "both"):
+            return s
     raise ValueError(f"No origin stop on {trip_direction} path for encounter policy")
 
 
