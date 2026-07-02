@@ -22,4 +22,6 @@ results*.xlsx
 # results_by_mode/ tracked on GitHub after batch runs complete
 field_stationary_observations.csv
 *.checkpoint.csv
+!results_by_mode/**/results_per_bus.checkpoint.csv
+!results_by_mode/**/results_per_bus_stops.checkpoint.csv
 figures_output/
