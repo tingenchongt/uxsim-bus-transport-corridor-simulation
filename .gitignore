@@ -24,4 +24,6 @@ field_stationary_observations.csv
 *.checkpoint.csv
 !results_by_mode/**/results_per_bus.checkpoint.csv
 !results_by_mode/**/results_per_bus_stops.checkpoint.csv
+# all_possible stop-detail checkpoint exceeds GitHub 100 MB limit when run completes
+results_by_mode/all_possible/results_per_bus_stops.checkpoint.csv
 figures_output/
